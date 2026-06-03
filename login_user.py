@@ -4,7 +4,7 @@ print('--------------')
 login_1 = input('User name: ')
 password_1 = input('Password: ')
 
-if login_1 != login.lower() or password_1 != password.lower():
+if login_1 != login.lower() or password_1 != password:
     print('Login Fail. ERROR!')
 else:
     print(f'Welcome {login}')
